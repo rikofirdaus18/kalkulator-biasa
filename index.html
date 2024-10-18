@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h3>Kalkulator</h3>
+    <div class="container">
+      <div class="container-row">
+        <input id="display" class="input" readonly />
+      </div>
+      <div class="container-row">
+        <button class="btn-ac" value="AC" onClick="btnClick(this.value)">
+          AC
+        </button>
+        <button class="btn" value="C" onClick="btnClick(this.value)">C</button>
+        <button class="btn" value="*" onClick="btnClick(this.value)">*</button>
+      </div>
+      <div class="container-row">
+        <button class="btn" value="7" onClick="btnClick(this.value)">7</button>
+        <button class="btn" value="8" onClick="btnClick(this.value)">8</button>
+        <button class="btn" value="9" onClick="btnClick(this.value)">9</button>
+        <button class="btn" value="/" onClick="btnClick(this.value)">/</button>
+      </div>
+      <div class="container-row">
+        <button class="btn" value="4" onClick="btnClick(this.value)">4</button>
+        <button class="btn" value="5" onClick="btnClick(this.value)">5</button>
+        <button class="btn" value="6" onClick="btnClick(this.value)">6</button>
+        <button class="btn" value="+" onClick="btnClick(this.value)">+</button>
+      </div>
+      <div class="container-row">
+        <button class="btn" value="1" onClick="btnClick(this.value)">1</button>
+        <button class="btn" value="2" onClick="btnClick(this.value)">2</button>
+        <button class="btn" value="3" onClick="btnClick(this.value)">3</button>
+        <button class="btn" value="-" onClick="btnClick(this.value)">-</button>
+      </div>
+      <div class="container-row">
+        <button class="btn" value="+-" onClick="btnClick(this.value)">±</button>
+        <button class="btn" value="0" onClick="btnClick(this.value)">0</button>
+        <button class="btn" value="." onClick="btnClick(this.value)">.</button>
+        <button class="btn" value="=" onClick="btnClick(this.value)">=</button>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
